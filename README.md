@@ -2,7 +2,7 @@
 So, this is my first django project. 
 
 ## Requirements
-Used virtual env with:
+Used pyenv+poetry with:
 * Python 3.10.6
 * django 3.2 LTS
 
