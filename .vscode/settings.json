@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/django-project-A_pB905e-py3.10/bin/python"
+    "python.pythonPath": "/root/.cache/pypoetry/virtualenvs/django-project-A_pB905e-py3.10/bin/python",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
