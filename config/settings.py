@@ -203,3 +203,10 @@ CACHES = {
         },
     }
 }
+
+CELERY_BROKER_URL = "redis://192.168.56.102:6379"
+CELERY_RESULT_BACKEND = "redis://192.168.56.102:6379"
+
+# Email as files for debug
+EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+EMAIL_FILE_PATH = "var/email-messages/"
